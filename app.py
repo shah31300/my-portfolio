@@ -19,8 +19,8 @@ def load_base64_image(image_filename):
     # Search in current directory
     possible_paths = [
         image_filename,
-        "Profile 2.jpeg",
-        "profile 2.jpeg",
+        "profile.jpg",
+        "profile.jpg",
         "Profile 2.jpg",
         "Profile_2.jpeg"
     ]
@@ -36,7 +36,7 @@ with open("index.html", "r", encoding="utf-8") as f:
     html_content = f.read()
 
 # Get Base64 image string
-img_b64 = load_base64_image("Profile 2.jpeg")
+img_b64 = load_base64_image("profile.jpg")
 
 if img_b64:
     b64_url = f"data:image/jpeg;base64,{img_b64}"

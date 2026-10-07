@@ -4,21 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO & Metadata -->
     <title>MEHMOOD UL HASSAN SHAH | AI & Software Developer</title>
-    <meta name="description" content="Portfolio of Mehmood ul Hassan Shah — BS IT student and AI / Software Developer specializing in Python, AI Assistants, Streamlit, and LLM integrations.">
-    <meta name="keywords" content="Mehmood ul Hassan Shah, AI Developer, Python Developer, Portfolio, Streamlit, LangChain, AI Writing Assistant, Pakistan">
+    <meta name="description"
+        content="Portfolio of Mehmood ul Hassan Shah — BS IT student and AI / Software Developer specializing in Python, AI Assistants, Streamlit, and LLM integrations.">
+    <meta name="keywords"
+        content="Mehmood ul Hassan Shah, AI Developer, Python Developer, Portfolio, Streamlit, LangChain, AI Writing Assistant, Pakistan">
     <meta name="author" content="Mehmood ul Hassan Shah">
 
     <!-- Open Graph / LinkedIn / WhatsApp Social Share Cards -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Mehmood ul Hassan Shah | AI & Software Developer">
-    <meta property="og:description" content="Explore AI Chatbots, Assistants, Python applications, and developer projects. Featured project: Streamlit AI Writing Assistant.">
+    <meta property="og:description"
+        content="Explore AI Chatbots, Assistants, Python applications, and developer projects. Featured project: Streamlit AI Writing Assistant.">
     <meta property="og:image" content="https://raw.githubusercontent.com/shah31300/my-portfolio/main/Profile%202.jpeg">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -27,7 +31,9 @@
     <!-- Google Fonts: Space Grotesk & Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <script>
         tailwind.config = {
@@ -106,7 +112,9 @@
     </style>
 </head>
 
-<body class="bg-bgDark text-gray-100 font-sans antialiased selection:bg-red-600/30 selection:text-red-200 min-h-screen flex flex-col justify-between" id="appBody" style="--dynamic-accent: #dc2626;">
+<body
+    class="bg-bgDark text-gray-100 font-sans antialiased selection:bg-red-600/30 selection:text-red-200 min-h-screen flex flex-col justify-between"
+    id="appBody" style="--dynamic-accent: #dc2626;">
 
     <!-- Navigation Bar -->
     <header class="border-b grid-border sticky top-0 bg-bgDark/90 backdrop-blur-md z-40">
@@ -115,18 +123,25 @@
             <div class="flex items-center space-x-3">
                 <div class="w-3 h-3 bg-accent rounded-full animate-pulse shadow-[0_0_10px_#dc2626]"></div>
                 <h1 class="font-mono text-sm tracking-wider uppercase font-semibold text-gray-100">
-                    MEHMOOD UL HASSAN SHAH <span class="text-textMuted font-normal hidden lg:inline">| AI & SOFTWARE DEVELOPER</span>
+                    MEHMOOD UL HASSAN SHAH <span class="text-textMuted font-normal hidden lg:inline">| AI & SOFTWARE
+                        DEVELOPER</span>
                 </h1>
             </div>
 
             <!-- Navigation Links -->
             <nav class="flex items-center space-x-4 sm:space-x-6 font-mono text-xs tracking-widest text-textMuted">
-                <button onclick="scrollToSection('hero')" class="hover:text-white transition-colors uppercase">HOME</button>
-                <button onclick="scrollToSection('about')" class="hover:text-white transition-colors uppercase">ABOUT</button>
-                <button onclick="scrollToSection('skills')" class="hover:text-white transition-colors uppercase">SKILLS</button>
-                <button onclick="scrollToSection('featured')" class="hover:text-white transition-colors uppercase">PROJECTS</button>
-                <button onclick="scrollToSection('services')" class="hover:text-white transition-colors uppercase hidden md:inline">SERVICES</button>
-                <button onclick="openContactModal()" class="px-3 py-1.5 border border-accent/40 bg-accent/10 text-accent rounded hover:bg-accent hover:text-white transition-all uppercase">CONTACT</button>
+                <button onclick="scrollToSection('hero')"
+                    class="hover:text-white transition-colors uppercase">HOME</button>
+                <button onclick="scrollToSection('about')"
+                    class="hover:text-white transition-colors uppercase">ABOUT</button>
+                <button onclick="scrollToSection('skills')"
+                    class="hover:text-white transition-colors uppercase">SKILLS</button>
+                <button onclick="scrollToSection('featured')"
+                    class="hover:text-white transition-colors uppercase">PROJECTS</button>
+                <button onclick="scrollToSection('services')"
+                    class="hover:text-white transition-colors uppercase hidden md:inline">SERVICES</button>
+                <button onclick="openContactModal()"
+                    class="px-3 py-1.5 border border-accent/40 bg-accent/10 text-accent rounded hover:bg-accent hover:text-white transition-all uppercase">CONTACT</button>
                 <button onclick="toggleSearchModal()" class="p-2 hover:text-white transition-colors" title="Search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
@@ -138,21 +153,27 @@
     <main class="max-w-[1700px] mx-auto w-full px-4 md:px-8 py-6 space-y-10 flex-grow">
 
         <!-- Hero Section -->
-        <section id="hero" class="border grid-border rounded-lg p-6 sm:p-10 md:p-12 hero-gradient relative overflow-hidden glow-effect">
+        <section id="hero"
+            class="border grid-border rounded-lg p-6 sm:p-10 md:p-12 hero-gradient relative overflow-hidden glow-effect">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
                 <div class="lg:col-span-8 space-y-6">
-                    <div class="inline-flex items-center gap-2 px-3 py-1 bg-bgDark/90 border grid-border rounded-full text-xs font-mono text-accent">
+                    <div
+                        class="inline-flex items-center gap-2 px-3 py-1 bg-bgDark/90 border grid-border rounded-full text-xs font-mono text-accent">
                         <i class="fa-solid fa-brain text-accent"></i>
                         <span>BS IT STUDENT & ASPIRING AI DEVELOPER</span>
                     </div>
 
-                    <h1 class="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white font-mono uppercase leading-tight">
+                    <h1
+                        class="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white font-mono uppercase leading-tight">
                         MEHMOOD UL <br class="hidden sm:inline" />
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-accent">HASSAN SHAH</span>
+                        <span
+                            class="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-accent">HASSAN
+                            SHAH</span>
                     </h1>
 
                     <p class="text-lg sm:text-xl text-gray-300 font-light max-w-2xl leading-relaxed">
-                        Building intelligent applications, AI assistants, chatbots, and modern digital experiences with Python and emerging AI technologies.
+                        Building intelligent applications, AI assistants, chatbots, and modern digital experiences with
+                        Python and emerging AI technologies.
                     </p>
 
                     <!-- Tech Badges -->
@@ -166,11 +187,13 @@
                     </div>
 
                     <div class="flex flex-wrap items-center gap-4 pt-4">
-                        <button onclick="scrollToSection('featured')" class="px-6 py-3 bg-accent text-white font-mono text-xs uppercase tracking-wider font-bold rounded hover:opacity-90 transition-all flex items-center gap-2 shadow-[0_0_20px_rgba(220,38,38,0.4)]">
+                        <button onclick="scrollToSection('featured')"
+                            class="px-6 py-3 bg-accent text-white font-mono text-xs uppercase tracking-wider font-bold rounded hover:opacity-90 transition-all flex items-center gap-2 shadow-[0_0_20px_rgba(220,38,38,0.4)]">
                             <span>VIEW MY PROJECTS</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </button>
-                        <button onclick="openContactModal()" class="px-6 py-3 bg-bgCard border grid-border text-white font-mono text-xs uppercase tracking-wider font-medium rounded hover:border-accent hover:text-accent transition-all">
+                        <button onclick="openContactModal()"
+                            class="px-6 py-3 bg-bgCard border grid-border text-white font-mono text-xs uppercase tracking-wider font-medium rounded hover:border-accent hover:text-accent transition-all">
                             CONTACT ME
                         </button>
                     </div>
@@ -178,21 +201,32 @@
 
                 <!-- Avatar & Interactive Profile Box -->
                 <div class="lg:col-span-4 flex justify-center">
-                    <div class="w-full max-w-sm bg-bgCard border grid-border rounded-xl p-6 relative overflow-hidden group">
-                        <div class="absolute -top-12 -right-12 w-32 h-32 bg-accent/20 rounded-full blur-2xl group-hover:bg-accent/30 transition-all"></div>
+                    <div
+                        class="w-full max-w-sm bg-bgCard border grid-border rounded-xl p-6 relative overflow-hidden group">
+                        <div
+                            class="absolute -top-12 -right-12 w-32 h-32 bg-accent/20 rounded-full blur-2xl group-hover:bg-accent/30 transition-all">
+                        </div>
                         <div class="flex flex-col items-center text-center space-y-4">
                             <!-- Theme-Integrated Portrait Image Frame -->
-                            <div class="relative w-44 h-44 rounded-full border-2 border-accent p-1.5 bg-gradient-to-b from-accentBurgundy to-bgDark shadow-[0_0_25px_rgba(220,38,38,0.3)] overflow-hidden group-hover:border-accentCrimson transition-all duration-300">
+                            <div
+                                class="relative w-44 h-44 rounded-full border-2 border-accent p-1.5 bg-gradient-to-b from-accentBurgundy to-bgDark shadow-[0_0_25px_rgba(220,38,38,0.3)] overflow-hidden group-hover:border-accentCrimson transition-all duration-300">
                                 <div class="w-full h-full rounded-full overflow-hidden bg-bgDark relative">
-                                    <img src="https://raw.githubusercontent.com/shah31300/my-portfolio/main/Profile%202.jpeg" alt="Mehmood ul Hassan Shah" class="w-full h-full object-cover object-top mix-blend-luminosity hover:mix-blend-normal transition-all duration-500 scale-105 group-hover:scale-110" onerror="this.onerror=null; this.src='Profile 2.jpeg';" />
-                                    <div class="absolute inset-0 bg-radial-gradient from-transparent via-bgDark/30 to-bgDark pointer-events-none"></div>
+                                    <img src="https://raw.githubusercontent.com/shah31300/my-portfolio/main/Profile%202.jpeg"
+                                        alt="Mehmood ul Hassan Shah"
+                                        class="w-full h-full object-cover object-top mix-blend-luminosity hover:mix-blend-normal transition-all duration-500 scale-105 group-hover:scale-110"
+                                        onerror="this.onerror=null; this.src='profile.jpg';" />
+                                    <div
+                                        class="absolute inset-0 bg-radial-gradient from-transparent via-bgDark/30 to-bgDark pointer-events-none">
+                                    </div>
                                 </div>
-                                <div class="absolute bottom-2 right-2 w-4 h-4 bg-emerald-500 rounded-full border-2 border-bgDark z-10" title="Available for AI projects"></div>
+                                <div class="absolute bottom-2 right-2 w-4 h-4 bg-emerald-500 rounded-full border-2 border-bgDark z-10"
+                                    title="Available for AI projects"></div>
                             </div>
 
                             <div>
                                 <h3 class="font-mono text-lg font-bold text-white uppercase">Mehmood ul Hassan</h3>
-                                <p class="text-xs font-mono text-textMuted uppercase mt-1">Islamia University of Bahawalpur</p>
+                                <p class="text-xs font-mono text-textMuted uppercase mt-1">Islamia University of
+                                    Bahawalpur</p>
                             </div>
 
                             <div class="w-full pt-4 border-t grid-border text-xs font-mono text-left space-y-2">
@@ -225,11 +259,19 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-12">
-                <div class="lg:col-span-3 p-6 flex items-center justify-center border-b lg:border-b-0 lg:border-r grid-border bg-bgDark/40">
-                    <div class="relative w-40 h-48 rounded-lg border grid-border overflow-hidden bg-bgDark group shadow-lg">
-                        <img src="https://raw.githubusercontent.com/shah31300/my-portfolio/main/Profile%202.jpeg" alt="Mehmood ul Hassan Shah" class="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 transition-opacity duration-300" onerror="this.onerror=null; this.src='Profile 2.jpeg';" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-bgDark via-transparent to-transparent opacity-80"></div>
-                        <div class="absolute bottom-2 left-2 right-2 text-center font-mono text-[10px] text-accent font-bold tracking-widest uppercase bg-bgDark/80 py-1 rounded border grid-border">
+                <div
+                    class="lg:col-span-3 p-6 flex items-center justify-center border-b lg:border-b-0 lg:border-r grid-border bg-bgDark/40">
+                    <div
+                        class="relative w-40 h-48 rounded-lg border grid-border overflow-hidden bg-bgDark group shadow-lg">
+                        <img src="https://raw.githubusercontent.com/shah31300/my-portfolio/main/Profile%202.jpeg"
+                            alt="Mehmood ul Hassan Shah"
+                            class="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+                            onerror="this.onerror=null; this.src='profile.jpg';" />
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-bgDark via-transparent to-transparent opacity-80">
+                        </div>
+                        <div
+                            class="absolute bottom-2 left-2 right-2 text-center font-mono text-[10px] text-accent font-bold tracking-widest uppercase bg-bgDark/80 py-1 rounded border grid-border">
                             AI / SOFTWARE DEV
                         </div>
                     </div>
@@ -237,7 +279,10 @@
 
                 <div class="lg:col-span-9 p-6 md:p-8 space-y-6">
                     <p class="text-gray-300 text-sm leading-relaxed font-light">
-                        I am a BS Information Technology student at <span class="text-white font-medium">The Islamia University of Bahawalpur</span> with a strong interest in Artificial Intelligence, Python development, web technologies, automation, and modern AI applications. I enjoy building practical projects and learning new technologies by implementing real-world applications.
+                        I am a BS Information Technology student at <span class="text-white font-medium">The Islamia
+                            University of Bahawalpur</span> with a strong interest in Artificial Intelligence, Python
+                        development, web technologies, automation, and modern AI applications. I enjoy building
+                        practical projects and learning new technologies by implementing real-world applications.
                     </p>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 font-mono">
                         <div class="bg-bgDark p-4 rounded border grid-border hover:border-accent/50 transition-colors">
@@ -276,93 +321,140 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Skill Category 1 -->
-                <div class="bg-bgCard border grid-border rounded-lg p-5 space-y-4 hover:border-accent/50 transition-all">
+                <div
+                    class="bg-bgCard border grid-border rounded-lg p-5 space-y-4 hover:border-accent/50 transition-all">
                     <div class="flex items-center space-x-3 text-accent border-b grid-border pb-3">
                         <i class="fa-solid fa-code text-lg"></i>
                         <h3 class="font-mono text-sm uppercase font-bold text-white">PROGRAMMING</h3>
                     </div>
                     <ul class="space-y-2 text-xs font-mono">
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">Python</span><span class="text-accent font-bold">Advanced</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">JavaScript</span><span class="text-textMuted">Proficient</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">HTML5 / CSS3</span><span class="text-textMuted">Proficient</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">SQL / SQLite</span><span class="text-textMuted">Intermediate</span></li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">Python</span><span class="text-accent font-bold">Advanced</span>
+                        </li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">JavaScript</span><span class="text-textMuted">Proficient</span>
+                        </li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">HTML5 / CSS3</span><span class="text-textMuted">Proficient</span>
+                        </li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">SQL / SQLite</span><span
+                                class="text-textMuted">Intermediate</span></li>
                     </ul>
                 </div>
 
                 <!-- Skill Category 2 -->
-                <div class="bg-bgCard border grid-border rounded-lg p-5 space-y-4 hover:border-accent/50 transition-all">
+                <div
+                    class="bg-bgCard border grid-border rounded-lg p-5 space-y-4 hover:border-accent/50 transition-all">
                     <div class="flex items-center space-x-3 text-accent border-b grid-border pb-3">
                         <i class="fa-solid fa-robot text-lg"></i>
                         <h3 class="font-mono text-sm uppercase font-bold text-white">AI & GENERATIVE TOOLING</h3>
                     </div>
                     <ul class="space-y-2 text-xs font-mono">
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">Generative AI / LLMs</span><span class="text-accent font-bold">Core Focus</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">AI APIs (OpenAI/Groq)</span><span class="text-accent font-bold">Core Focus</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">LangChain & RAG</span><span class="text-gray-300">Advanced</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">Function Calling</span><span class="text-gray-300">Advanced</span></li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">Generative AI / LLMs</span><span
+                                class="text-accent font-bold">Core Focus</span></li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">AI APIs (OpenAI/Groq)</span><span
+                                class="text-accent font-bold">Core Focus</span></li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">LangChain & RAG</span><span class="text-gray-300">Advanced</span>
+                        </li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">Function Calling</span><span class="text-gray-300">Advanced</span>
+                        </li>
                     </ul>
                 </div>
 
                 <!-- Skill Category 3 -->
-                <div class="bg-bgCard border grid-border rounded-lg p-5 space-y-4 hover:border-accent/50 transition-all">
+                <div
+                    class="bg-bgCard border grid-border rounded-lg p-5 space-y-4 hover:border-accent/50 transition-all">
                     <div class="flex items-center space-x-3 text-accent border-b grid-border pb-3">
                         <i class="fa-solid fa-screwdriver-wrench text-lg"></i>
                         <h3 class="font-mono text-sm uppercase font-bold text-white">DEVELOPMENT TOOLS</h3>
                     </div>
                     <ul class="space-y-2 text-xs font-mono">
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">Git & GitHub</span><span class="text-gray-300">Daily Use</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">VS Code Environment</span><span class="text-gray-300">Daily Use</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">Streamlit Apps</span><span class="text-accent font-bold">High Skill</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">Next.js & Vercel</span><span class="text-textMuted">Deployments</span></li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">Git & GitHub</span><span class="text-gray-300">Daily Use</span>
+                        </li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">VS Code Environment</span><span class="text-gray-300">Daily
+                                Use</span></li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">Streamlit Apps</span><span class="text-accent font-bold">High
+                                Skill</span></li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">Next.js & Vercel</span><span
+                                class="text-textMuted">Deployments</span></li>
                     </ul>
                 </div>
 
                 <!-- Skill Category 4 -->
-                <div class="bg-bgCard border grid-border rounded-lg p-5 space-y-4 hover:border-accent/50 transition-all">
+                <div
+                    class="bg-bgCard border grid-border rounded-lg p-5 space-y-4 hover:border-accent/50 transition-all">
                     <div class="flex items-center space-x-3 text-accent border-b grid-border pb-3">
                         <i class="fa-solid fa-user-gear text-lg"></i>
                         <h3 class="font-mono text-sm uppercase font-bold text-white">PROFESSIONAL SKILLS</h3>
                     </div>
                     <ul class="space-y-2 text-xs font-mono">
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">Client Communication</span><span class="text-gray-300">Fiverr/Upwork</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">Project Leadership</span><span class="text-gray-300">Organized</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">Digital Operations</span><span class="text-gray-300">3+ Years</span></li>
-                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span class="text-gray-200">Graphic & Logo Design</span><span class="text-textMuted">Creative</span></li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">Client Communication</span><span
+                                class="text-gray-300">Fiverr/Upwork</span></li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">Project Leadership</span><span
+                                class="text-gray-300">Organized</span></li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">Digital Operations</span><span class="text-gray-300">3+
+                                Years</span></li>
+                        <li class="flex justify-between p-2 bg-bgDark rounded border grid-border"><span
+                                class="text-gray-200">Graphic & Logo Design</span><span
+                                class="text-textMuted">Creative</span></li>
                     </ul>
                 </div>
             </div>
         </section>
 
         <!-- Featured Flagship Project: AI Writing Assistant -->
-        <section id="featured" class="border border-accent/60 rounded-xl bg-bgCard overflow-hidden shadow-[0_0_30px_rgba(139,0,0,0.2)]">
+        <section id="featured"
+            class="border border-accent/60 rounded-xl bg-bgCard overflow-hidden shadow-[0_0_30px_rgba(139,0,0,0.2)]">
             <div class="p-4 bg-bgDark border-b grid-border flex justify-between items-center">
                 <div class="flex items-center space-x-2 font-mono text-xs">
                     <span class="w-2.5 h-2.5 bg-accent rounded-full animate-ping"></span>
                     <span class="text-accent font-bold uppercase">FEATURED FLAGSHIP APP</span>
                 </div>
-                <span class="font-mono text-xs text-emerald-400 font-semibold"><i class="fa-solid fa-circle text-[8px] mr-1"></i> LIVE ON STREAMLIT</span>
+                <span class="font-mono text-xs text-emerald-400 font-semibold"><i
+                        class="fa-solid fa-circle text-[8px] mr-1"></i> LIVE ON STREAMLIT</span>
             </div>
 
             <div class="p-6 md:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <div class="lg:col-span-7 space-y-6">
                     <div class="space-y-2">
-                        <span class="font-mono text-xs text-accent uppercase font-bold tracking-widest">DEPLOYED STREAMLIT APP</span>
-                        <h3 class="text-3xl sm:text-5xl font-mono font-bold text-white uppercase tracking-tight">AI WRITING ASSISTANT</h3>
+                        <span class="font-mono text-xs text-accent uppercase font-bold tracking-widest">DEPLOYED
+                            STREAMLIT APP</span>
+                        <h3 class="text-3xl sm:text-5xl font-mono font-bold text-white uppercase tracking-tight">AI
+                            WRITING ASSISTANT</h3>
                     </div>
 
                     <p class="text-gray-300 text-sm sm:text-base leading-relaxed font-light">
-                        Your intelligent partner for writing, rewriting, and creating better content. Turn ideas into polished words with a focused, premium AI workspace built on Python & Streamlit.
+                        Your intelligent partner for writing, rewriting, and creating better content. Turn ideas into
+                        polished words with a focused, premium AI workspace built on Python & Streamlit.
                     </p>
 
                     <!-- Feature Pills Grid -->
                     <div class="space-y-2">
                         <div class="text-xs font-mono text-textMuted uppercase">Key Capabilities:</div>
                         <div class="flex flex-wrap gap-2 text-xs font-mono">
-                            <span class="px-2.5 py-1 bg-bgDark border grid-border rounded text-gray-300"><i class="fa-solid fa-pen-nib text-accent mr-1"></i> Smart Content Rewriting</span>
-                            <span class="px-2.5 py-1 bg-bgDark border grid-border rounded text-gray-300"><i class="fa-solid fa-envelope text-accent mr-1"></i> Professional Email Generator</span>
-                            <span class="px-2.5 py-1 bg-bgDark border grid-border rounded text-gray-300"><i class="fa-solid fa-file-lines text-accent mr-1"></i> Summarization & Grammar</span>
-                            <span class="px-2.5 py-1 bg-bgDark border grid-border rounded text-gray-300"><i class="fa-solid fa-id-card text-accent mr-1"></i> CV & Resume Writing</span>
-                            <span class="px-2.5 py-1 bg-bgDark border grid-border rounded text-gray-300"><i class="fa-solid fa-hashtag text-accent mr-1"></i> Social Media Content</span>
+                            <span class="px-2.5 py-1 bg-bgDark border grid-border rounded text-gray-300"><i
+                                    class="fa-solid fa-pen-nib text-accent mr-1"></i> Smart Content Rewriting</span>
+                            <span class="px-2.5 py-1 bg-bgDark border grid-border rounded text-gray-300"><i
+                                    class="fa-solid fa-envelope text-accent mr-1"></i> Professional Email
+                                Generator</span>
+                            <span class="px-2.5 py-1 bg-bgDark border grid-border rounded text-gray-300"><i
+                                    class="fa-solid fa-file-lines text-accent mr-1"></i> Summarization & Grammar</span>
+                            <span class="px-2.5 py-1 bg-bgDark border grid-border rounded text-gray-300"><i
+                                    class="fa-solid fa-id-card text-accent mr-1"></i> CV & Resume Writing</span>
+                            <span class="px-2.5 py-1 bg-bgDark border grid-border rounded text-gray-300"><i
+                                    class="fa-solid fa-hashtag text-accent mr-1"></i> Social Media Content</span>
                         </div>
                     </div>
 
@@ -375,10 +467,13 @@
                     </div>
 
                     <div class="flex flex-wrap gap-4 pt-2 font-mono text-xs">
-                        <a href="https://ai-writing-assistant-8yhbzsctygjaqszlicappyj.streamlit.app" target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-accent text-white font-bold rounded uppercase tracking-wider hover:opacity-90 transition-opacity shadow-[0_0_15px_rgba(220,38,38,0.4)] flex items-center gap-2">
+                        <a href="https://ai-writing-assistant-8yhbzsctygjaqszlicappyj.streamlit.app" target="_blank"
+                            rel="noopener noreferrer"
+                            class="px-6 py-3 bg-accent text-white font-bold rounded uppercase tracking-wider hover:opacity-90 transition-opacity shadow-[0_0_15px_rgba(220,38,38,0.4)] flex items-center gap-2">
                             <i class="fa-solid fa-rocket"></i> LAUNCH LIVE APP &rarr;
                         </a>
-                        <button onclick="openModal('writing')" class="px-6 py-3 bg-bgDark border grid-border text-white rounded uppercase tracking-wider hover:border-accent transition-colors">
+                        <button onclick="openModal('writing')"
+                            class="px-6 py-3 bg-bgDark border grid-border text-white rounded uppercase tracking-wider hover:border-accent transition-colors">
                             VIEW DETAILS
                         </button>
                     </div>
@@ -386,7 +481,8 @@
 
                 <!-- Featured Mock Graphic -->
                 <div class="lg:col-span-5 flex justify-center">
-                    <div class="w-full bg-bgDark border grid-border rounded-xl p-6 space-y-4 relative overflow-hidden font-mono shadow-xl">
+                    <div
+                        class="w-full bg-bgDark border grid-border rounded-xl p-6 space-y-4 relative overflow-hidden font-mono shadow-xl">
                         <div class="flex items-center justify-between border-b grid-border pb-3">
                             <div class="flex space-x-2">
                                 <div class="w-3 h-3 rounded-full bg-red-500"></div>
@@ -399,7 +495,8 @@
                         <div class="space-y-3 text-xs">
                             <div class="p-3 bg-bgCard border grid-border rounded text-gray-300">
                                 <span class="text-accent">$</span> streamlit run ai_writing_assistant.py
-                                <div class="text-[10px] text-emerald-400 mt-1">&gt; Streamlit app deployed at URL...</div>
+                                <div class="text-[10px] text-emerald-400 mt-1">&gt; Streamlit app deployed at URL...
+                                </div>
                             </div>
                             <div class="p-3 bg-bgCard border grid-border rounded text-gray-300 space-y-2">
                                 <div class="text-accent font-bold">APP FEATURES:</div>
@@ -407,7 +504,9 @@
                                 <div class="text-textMuted text-[10px]">&bull; Grammar & Tone Optimization</div>
                                 <div class="text-textMuted text-[10px]">&bull; CV & Social Media Drafting</div>
                             </div>
-                            <a href="https://ai-writing-assistant-8yhbzsctygjaqszlicappyj.streamlit.app" target="_blank" rel="noopener noreferrer" class="block text-center p-3 bg-accent/10 border border-accent/40 rounded text-accent hover:bg-accent hover:text-white transition-all font-bold">
+                            <a href="https://ai-writing-assistant-8yhbzsctygjaqszlicappyj.streamlit.app" target="_blank"
+                                rel="noopener noreferrer"
+                                class="block text-center p-3 bg-accent/10 border border-accent/40 rounded text-accent hover:bg-accent hover:text-white transition-all font-bold">
                                 <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i> OPEN APP IN STREAMLIT
                             </a>
                         </div>
@@ -424,9 +523,14 @@
                 </h2>
 
                 <div class="flex flex-wrap gap-2 font-mono text-xs">
-                    <button onclick="filterProjects('all')" id="filter-all" class="filter-btn px-4 py-1.5 rounded border border-accent bg-accent/10 text-accent uppercase transition-all">ALL WORK</button>
-                    <button onclick="filterProjects('ai')" id="filter-ai" class="filter-btn px-4 py-1.5 rounded border grid-border text-textMuted hover:text-white uppercase transition-all">AI CHATBOTS</button>
-                    <button onclick="filterProjects('tools')" id="filter-tools" class="filter-btn px-4 py-1.5 rounded border grid-border text-textMuted hover:text-white uppercase transition-all">ASSISTANTS</button>
+                    <button onclick="filterProjects('all')" id="filter-all"
+                        class="filter-btn px-4 py-1.5 rounded border border-accent bg-accent/10 text-accent uppercase transition-all">ALL
+                        WORK</button>
+                    <button onclick="filterProjects('ai')" id="filter-ai"
+                        class="filter-btn px-4 py-1.5 rounded border grid-border text-textMuted hover:text-white uppercase transition-all">AI
+                        CHATBOTS</button>
+                    <button onclick="filterProjects('tools')" id="filter-tools"
+                        class="filter-btn px-4 py-1.5 rounded border grid-border text-textMuted hover:text-white uppercase transition-all">ASSISTANTS</button>
                 </div>
             </div>
 
@@ -447,24 +551,33 @@
             <div class="p-6 md:p-8 space-y-6">
                 <div class="border-l-2 border-accent pl-4 space-y-2">
                     <div class="flex flex-wrap justify-between items-center gap-2">
-                        <h3 class="font-mono text-lg font-bold text-white uppercase">FREELANCE DEVELOPER & DIGITAL SOLUTIONS</h3>
-                        <span class="font-mono text-xs px-2.5 py-1 bg-accent/10 text-accent border border-accent/30 rounded">Fiverr & Upwork</span>
+                        <h3 class="font-mono text-lg font-bold text-white uppercase">FREELANCE DEVELOPER & DIGITAL
+                            SOLUTIONS</h3>
+                        <span
+                            class="font-mono text-xs px-2.5 py-1 bg-accent/10 text-accent border border-accent/30 rounded">Fiverr
+                            & Upwork</span>
                     </div>
                     <p class="text-xs font-mono text-textMuted">CLIENT SERVICE & ONLINE OPERATIONS (2022 - PRESENT)</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 font-mono text-xs">
                     <div class="p-4 bg-bgDark border grid-border rounded space-y-2">
-                        <div class="text-accent font-bold flex items-center gap-2"><i class="fa-solid fa-comments"></i> CLIENT COMMUNICATION</div>
-                        <p class="text-gray-300 font-sans">Delivering tailored solutions through effective requirement gathering and clear progress updates.</p>
+                        <div class="text-accent font-bold flex items-center gap-2"><i class="fa-solid fa-comments"></i>
+                            CLIENT COMMUNICATION</div>
+                        <p class="text-gray-300 font-sans">Delivering tailored solutions through effective requirement
+                            gathering and clear progress updates.</p>
                     </div>
                     <div class="p-4 bg-bgDark border grid-border rounded space-y-2">
-                        <div class="text-accent font-bold flex items-center gap-2"><i class="fa-solid fa-pen-nib"></i> GRAPHIC & LOGO DESIGN</div>
-                        <p class="text-gray-300 font-sans">Designing modern visual identities, logos, and UI graphics for digital brand presence.</p>
+                        <div class="text-accent font-bold flex items-center gap-2"><i class="fa-solid fa-pen-nib"></i>
+                            GRAPHIC & LOGO DESIGN</div>
+                        <p class="text-gray-300 font-sans">Designing modern visual identities, logos, and UI graphics
+                            for digital brand presence.</p>
                     </div>
                     <div class="p-4 bg-bgDark border grid-border rounded space-y-2">
-                        <div class="text-accent font-bold flex items-center gap-2"><i class="fa-solid fa-list-check"></i> DIGITAL OPERATIONS</div>
-                        <p class="text-gray-300 font-sans">Managing online business accounts, handling client deliverables, and maintaining high service ratings.</p>
+                        <div class="text-accent font-bold flex items-center gap-2"><i
+                                class="fa-solid fa-list-check"></i> DIGITAL OPERATIONS</div>
+                        <p class="text-gray-300 font-sans">Managing online business accounts, handling client
+                            deliverables, and maintaining high service ratings.</p>
                     </div>
                 </div>
             </div>
@@ -487,17 +600,20 @@
                     <h3 class="font-mono text-lg font-bold text-white uppercase">BS INFORMATION TECHNOLOGY</h3>
                     <p class="text-xs font-mono text-gray-300">The Islamia University of Bahawalpur</p>
                     <p class="text-xs text-textMuted leading-relaxed pt-2 border-t grid-border">
-                        Focusing on Software Development, Artificial Intelligence, Database Systems, Web Architectures, and Object-Oriented Programming.
+                        Focusing on Software Development, Artificial Intelligence, Database Systems, Web Architectures,
+                        and Object-Oriented Programming.
                     </p>
                 </div>
 
                 <!-- Degree 2 -->
                 <div class="p-5 bg-bgDark border grid-border rounded-lg space-y-3 relative overflow-hidden">
                     <span class="text-xs font-mono text-textMuted">INTERMEDIATE</span>
-                    <h3 class="font-mono text-lg font-bold text-white uppercase">INTERMEDIATE IN COMPUTER SCIENCE (ICS)</h3>
+                    <h3 class="font-mono text-lg font-bold text-white uppercase">INTERMEDIATE IN COMPUTER SCIENCE (ICS)
+                    </h3>
                     <p class="text-xs font-mono text-gray-300">Government Sadiq Egerton Graduate College, Bahawalpur</p>
                     <p class="text-xs text-textMuted leading-relaxed pt-2 border-t grid-border">
-                        Strong foundation in Computer Studies, Mathematics, Physics, and foundational programming algorithms.
+                        Strong foundation in Computer Studies, Mathematics, Physics, and foundational programming
+                        algorithms.
                     </p>
                 </div>
             </div>
@@ -516,37 +632,44 @@
                 <div class="p-5 bg-bgCard border grid-border rounded-lg space-y-2 hover:border-accent transition-all">
                     <i class="fa-solid fa-robot text-2xl text-accent"></i>
                     <h3 class="font-bold text-white text-sm uppercase">AI CHATBOT DEV</h3>
-                    <p class="text-textMuted font-sans">Custom conversational AI agents built with Python and fast LLM APIs.</p>
+                    <p class="text-textMuted font-sans">Custom conversational AI agents built with Python and fast LLM
+                        APIs.</p>
                 </div>
                 <div class="p-5 bg-bgCard border grid-border rounded-lg space-y-2 hover:border-accent transition-all">
                     <i class="fa-brands fa-python text-2xl text-accent"></i>
                     <h3 class="font-bold text-white text-sm uppercase">PYTHON DEVELOPMENT</h3>
-                    <p class="text-textMuted font-sans">Clean Python scripts, command-line utilities, and backend integration.</p>
+                    <p class="text-textMuted font-sans">Clean Python scripts, command-line utilities, and backend
+                        integration.</p>
                 </div>
                 <div class="p-5 bg-bgCard border grid-border rounded-lg space-y-2 hover:border-accent transition-all">
                     <i class="fa-solid fa-plug text-2xl text-accent"></i>
                     <h3 class="font-bold text-white text-sm uppercase">AI API INTEGRATION</h3>
-                    <p class="text-textMuted font-sans">Integrating OpenAI, Groq, Anthropic, and custom model endpoints seamlessly.</p>
+                    <p class="text-textMuted font-sans">Integrating OpenAI, Groq, Anthropic, and custom model endpoints
+                        seamlessly.</p>
                 </div>
                 <div class="p-5 bg-bgCard border grid-border rounded-lg space-y-2 hover:border-accent transition-all">
                     <i class="fa-solid fa-brain text-2xl text-accent"></i>
                     <h3 class="font-bold text-white text-sm uppercase">AI ASSISTANT DEV</h3>
-                    <p class="text-textMuted font-sans">Multi-functional personal assistants with memory, search, and tools.</p>
+                    <p class="text-textMuted font-sans">Multi-functional personal assistants with memory, search, and
+                        tools.</p>
                 </div>
                 <div class="p-5 bg-bgCard border grid-border rounded-lg space-y-2 hover:border-accent transition-all">
                     <i class="fa-solid fa-code text-2xl text-accent"></i>
                     <h3 class="font-bold text-white text-sm uppercase">WEB DEVELOPMENT</h3>
-                    <p class="text-textMuted font-sans">Modern, dark-theme, responsive portfolio & Web application frontends.</p>
+                    <p class="text-textMuted font-sans">Modern, dark-theme, responsive portfolio & Web application
+                        frontends.</p>
                 </div>
                 <div class="p-5 bg-bgCard border grid-border rounded-lg space-y-2 hover:border-accent transition-all">
                     <i class="fa-solid fa-file-pdf text-2xl text-accent"></i>
                     <h3 class="font-bold text-white text-sm uppercase">RAG & PDF AI APPS</h3>
-                    <p class="text-textMuted font-sans">Question answering over custom documents and multi-PDF vector search.</p>
+                    <p class="text-textMuted font-sans">Question answering over custom documents and multi-PDF vector
+                        search.</p>
                 </div>
                 <div class="p-5 bg-bgCard border grid-border rounded-lg space-y-2 hover:border-accent transition-all">
                     <i class="fa-solid fa-terminal text-2xl text-accent"></i>
                     <h3 class="font-bold text-white text-sm uppercase">PROMPT ENGINEERING</h3>
-                    <p class="text-textMuted font-sans">Designing structured system prompts, few-shot examples, and agent instructions.</p>
+                    <p class="text-textMuted font-sans">Designing structured system prompts, few-shot examples, and
+                        agent instructions.</p>
                 </div>
                 <div class="p-5 bg-bgCard border grid-border rounded-lg space-y-2 hover:border-accent transition-all">
                     <i class="fa-solid fa-palette text-2xl text-accent"></i>
@@ -556,13 +679,15 @@
                 <div class="p-5 bg-bgCard border grid-border rounded-lg space-y-2 hover:border-accent transition-all">
                     <i class="fa-solid fa-gear text-2xl text-accent"></i>
                     <h3 class="font-bold text-white text-sm uppercase">AI AUTOMATION</h3>
-                    <p class="text-textMuted font-sans">Automating repetitive digital workflows using intelligent script agents.</p>
+                    <p class="text-textMuted font-sans">Automating repetitive digital workflows using intelligent script
+                        agents.</p>
                 </div>
             </div>
         </section>
 
         <!-- GitHub / Developer Section -->
-        <section class="border grid-border rounded-lg p-6 md:p-8 bg-bgCard flex flex-col md:flex-row justify-between items-center gap-6">
+        <section
+            class="border grid-border rounded-lg p-6 md:p-8 bg-bgCard flex flex-col md:flex-row justify-between items-center gap-6">
             <div class="space-y-2">
                 <div class="flex items-center space-x-2 text-accent font-mono text-xs">
                     <i class="fa-brands fa-github text-lg"></i>
@@ -570,10 +695,12 @@
                 </div>
                 <h3 class="text-2xl font-mono font-bold text-white uppercase">Open Source & Learning Journey</h3>
                 <p class="text-gray-300 text-sm max-w-xl font-light">
-                    I believe the best way to understand a developer is to see what they build. Explore my repositories, AI experiments, and learning milestones on GitHub.
+                    I believe the best way to understand a developer is to see what they build. Explore my repositories,
+                    AI experiments, and learning milestones on GitHub.
                 </p>
             </div>
-            <a href="https://github.com/shah31300" target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-accent text-white font-mono text-xs uppercase font-bold rounded hover:opacity-90 transition-opacity flex items-center gap-2 whitespace-nowrap">
+            <a href="https://github.com/shah31300" target="_blank" rel="noopener noreferrer"
+                class="px-6 py-3 bg-accent text-white font-mono text-xs uppercase font-bold rounded hover:opacity-90 transition-opacity flex items-center gap-2 whitespace-nowrap">
                 <i class="fa-brands fa-github text-base"></i>
                 <span>VISIT GITHUB PROFILE</span>
             </a>
@@ -589,11 +716,14 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-12">
-                <div class="lg:col-span-5 p-6 md:p-8 space-y-6 border-b lg:border-b-0 lg:border-r grid-border bg-bgDark/30">
+                <div
+                    class="lg:col-span-5 p-6 md:p-8 space-y-6 border-b lg:border-b-0 lg:border-r grid-border bg-bgDark/30">
                     <div class="space-y-2">
-                        <h3 class="text-2xl font-mono font-bold text-white uppercase">LET'S BUILD SOMETHING INTELLIGENT</h3>
+                        <h3 class="text-2xl font-mono font-bold text-white uppercase">LET'S BUILD SOMETHING INTELLIGENT
+                        </h3>
                         <p class="text-gray-300 text-sm font-light leading-relaxed">
-                            Have an idea for an AI application, chatbot, website, or digital project? Let's turn it into reality.
+                            Have an idea for an AI application, chatbot, website, or digital project? Let's turn it into
+                            reality.
                         </p>
                     </div>
 
@@ -616,10 +746,18 @@
                     <div class="pt-4 border-t grid-border">
                         <div class="text-xs font-mono text-textMuted uppercase mb-3">CONNECT ACROSS PLATFORMS</div>
                         <div class="flex space-x-4 text-lg">
-                            <a href="https://github.com/shah31300" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded border grid-border bg-bgDark flex items-center justify-center text-gray-300 hover:text-accent hover:border-accent transition-colors"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded border grid-border bg-bgDark flex items-center justify-center text-gray-300 hover:text-accent hover:border-accent transition-colors"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://fiverr.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded border grid-border bg-bgDark flex items-center justify-center text-gray-300 hover:text-accent hover:border-accent transition-colors" title="Fiverr"><i class="fa-solid fa-briefcase"></i></a>
-                            <a href="https://upwork.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded border grid-border bg-bgDark flex items-center justify-center text-gray-300 hover:text-accent hover:border-accent transition-colors" title="Upwork"><i class="fa-solid fa-globe"></i></a>
+                            <a href="https://github.com/shah31300" target="_blank" rel="noopener noreferrer"
+                                class="w-10 h-10 rounded border grid-border bg-bgDark flex items-center justify-center text-gray-300 hover:text-accent hover:border-accent transition-colors"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                                class="w-10 h-10 rounded border grid-border bg-bgDark flex items-center justify-center text-gray-300 hover:text-accent hover:border-accent transition-colors"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://fiverr.com" target="_blank" rel="noopener noreferrer"
+                                class="w-10 h-10 rounded border grid-border bg-bgDark flex items-center justify-center text-gray-300 hover:text-accent hover:border-accent transition-colors"
+                                title="Fiverr"><i class="fa-solid fa-briefcase"></i></a>
+                            <a href="https://upwork.com" target="_blank" rel="noopener noreferrer"
+                                class="w-10 h-10 rounded border grid-border bg-bgDark flex items-center justify-center text-gray-300 hover:text-accent hover:border-accent transition-colors"
+                                title="Upwork"><i class="fa-solid fa-globe"></i></a>
                         </div>
                     </div>
                 </div>
@@ -629,21 +767,26 @@
                     <form onsubmit="handleContactSubmit(event)" class="space-y-4 font-mono text-xs">
                         <div>
                             <label class="block text-textMuted uppercase mb-1">YOUR NAME / ENTITY</label>
-                            <input type="text" required placeholder="e.g. John Doe" class="w-full bg-bgDark border grid-border rounded px-4 py-3 text-white focus:outline-none focus:border-accent">
+                            <input type="text" required placeholder="e.g. John Doe"
+                                class="w-full bg-bgDark border grid-border rounded px-4 py-3 text-white focus:outline-none focus:border-accent">
                         </div>
                         <div>
                             <label class="block text-textMuted uppercase mb-1">EMAIL ADDRESS</label>
-                            <input type="email" required placeholder="e.g. john@domain.com" class="w-full bg-bgDark border grid-border rounded px-4 py-3 text-white focus:outline-none focus:border-accent">
+                            <input type="email" required placeholder="e.g. john@domain.com"
+                                class="w-full bg-bgDark border grid-border rounded px-4 py-3 text-white focus:outline-none focus:border-accent">
                         </div>
                         <div>
                             <label class="block text-textMuted uppercase mb-1">SUBJECT</label>
-                            <input type="text" required placeholder="Project Inquiry / Collaboration" class="w-full bg-bgDark border grid-border rounded px-4 py-3 text-white focus:outline-none focus:border-accent">
+                            <input type="text" required placeholder="Project Inquiry / Collaboration"
+                                class="w-full bg-bgDark border grid-border rounded px-4 py-3 text-white focus:outline-none focus:border-accent">
                         </div>
                         <div>
                             <label class="block text-textMuted uppercase mb-1">PROJECT BRIEF / MESSAGE</label>
-                            <textarea rows="4" required placeholder="Describe your AI idea or project specs..." class="w-full bg-bgDark border grid-border rounded px-4 py-3 text-white focus:outline-none focus:border-accent"></textarea>
+                            <textarea rows="4" required placeholder="Describe your AI idea or project specs..."
+                                class="w-full bg-bgDark border grid-border rounded px-4 py-3 text-white focus:outline-none focus:border-accent"></textarea>
                         </div>
-                        <button type="submit" class="w-full py-3.5 bg-accent text-white font-bold rounded uppercase tracking-wider hover:opacity-90 transition-opacity shadow-[0_0_20px_rgba(220,38,38,0.3)]">
+                        <button type="submit"
+                            class="w-full py-3.5 bg-accent text-white font-bold rounded uppercase tracking-wider hover:opacity-90 transition-opacity shadow-[0_0_20px_rgba(220,38,38,0.3)]">
                             SEND MESSAGE
                         </button>
                     </form>
@@ -655,9 +798,11 @@
 
     <!-- Footer -->
     <footer class="border-t grid-border bg-bgDark py-6">
-        <div class="max-w-[1700px] mx-auto px-4 md:px-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-mono text-textMuted">
+        <div
+            class="max-w-[1700px] mx-auto px-4 md:px-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-mono text-textMuted">
             <div>
-                <span class="text-white font-bold">MEHMOOD UL HASSAN SHAH</span> — AI DEVELOPER • PYTHON DEVELOPER • IT STUDENT
+                <span class="text-white font-bold">MEHMOOD UL HASSAN SHAH</span> — AI DEVELOPER • PYTHON DEVELOPER • IT
+                STUDENT
             </div>
             <div>
                 &copy; 2026 MEHMOOD UL HASSAN SHAH. ALL RIGHTS RESERVED.
@@ -666,20 +811,26 @@
     </footer>
 
     <!-- Project Details Drawer/Modal -->
-    <div id="projectModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
-        <div class="bg-bgCard border grid-border rounded-lg max-w-3xl w-full overflow-hidden shadow-2xl flex flex-col max-h-[90vh]">
+    <div id="projectModal"
+        class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div
+            class="bg-bgCard border grid-border rounded-lg max-w-3xl w-full overflow-hidden shadow-2xl flex flex-col max-h-[90vh]">
             <div class="p-4 border-b grid-border flex justify-between items-center bg-bgDark">
-                <div class="font-mono text-xs text-accent uppercase font-bold" id="modalCategory">CATEGORY / DETAILS</div>
-                <button onclick="closeModal()" class="text-textMuted hover:text-white text-xl font-bold px-2">&times;</button>
+                <div class="font-mono text-xs text-accent uppercase font-bold" id="modalCategory">CATEGORY / DETAILS
+                </div>
+                <button onclick="closeModal()"
+                    class="text-textMuted hover:text-white text-xl font-bold px-2">&times;</button>
             </div>
 
             <div class="p-6 overflow-y-auto space-y-6 font-mono">
-                <div class="relative w-full h-56 sm:h-64 bg-bgDark rounded overflow-hidden border grid-border flex items-center justify-center p-6 text-center">
+                <div
+                    class="relative w-full h-56 sm:h-64 bg-bgDark rounded overflow-hidden border grid-border flex items-center justify-center p-6 text-center">
                     <div id="modalGraphic" class="space-y-2"></div>
                 </div>
                 <div>
                     <h3 id="modalTitle" class="text-2xl font-bold text-white mb-2 uppercase">PROJECT TITLE</h3>
-                    <p id="modalDesc" class="text-gray-300 text-xs sm:text-sm font-sans leading-relaxed">Detailed project breakdown.</p>
+                    <p id="modalDesc" class="text-gray-300 text-xs sm:text-sm font-sans leading-relaxed">Detailed
+                        project breakdown.</p>
                 </div>
 
                 <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs border-t border-b grid-border py-4">
@@ -699,8 +850,11 @@
             </div>
 
             <div class="p-4 border-t grid-border bg-bgDark flex justify-end gap-3 font-mono text-xs">
-                <button onclick="closeModal()" class="px-4 py-2 border grid-border rounded text-textMuted hover:text-white">CLOSE</button>
-                <a id="modalDemo" href="https://ai-writing-assistant-8yhbzsctygjaqszlicappyj.streamlit.app" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-accent text-white rounded font-bold uppercase hover:opacity-90 flex items-center gap-1">
+                <button onclick="closeModal()"
+                    class="px-4 py-2 border grid-border rounded text-textMuted hover:text-white">CLOSE</button>
+                <a id="modalDemo" href="https://ai-writing-assistant-8yhbzsctygjaqszlicappyj.streamlit.app"
+                    target="_blank" rel="noopener noreferrer"
+                    class="px-4 py-2 bg-accent text-white rounded font-bold uppercase hover:opacity-90 flex items-center gap-1">
                     <span>LAUNCH APP</span> <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
                 </a>
             </div>
@@ -708,7 +862,8 @@
     </div>
 
     <!-- Contact Modal -->
-    <div id="contactModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+    <div id="contactModal"
+        class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
         <div class="bg-bgCard border grid-border rounded-lg max-w-lg w-full p-6 shadow-2xl space-y-4 font-mono">
             <div class="flex justify-between items-center border-b grid-border pb-3">
                 <h3 class="text-lg font-bold uppercase text-white">INITIATE CONTACT</h3>
@@ -717,17 +872,21 @@
             <form onsubmit="handleContactSubmit(event)" class="space-y-4 text-xs">
                 <div>
                     <label class="block text-textMuted mb-1 uppercase">YOUR NAME / ENTITY</label>
-                    <input type="text" required placeholder="Alex Turner" class="w-full bg-bgDark border grid-border rounded px-3 py-2 text-white focus:outline-none focus:border-accent">
+                    <input type="text" required placeholder="Alex Turner"
+                        class="w-full bg-bgDark border grid-border rounded px-3 py-2 text-white focus:outline-none focus:border-accent">
                 </div>
                 <div>
                     <label class="block text-textMuted mb-1 uppercase">EMAIL ADDRESS</label>
-                    <input type="email" required placeholder="alex@domain.com" class="w-full bg-bgDark border grid-border rounded px-3 py-2 text-white focus:outline-none focus:border-accent">
+                    <input type="email" required placeholder="alex@domain.com"
+                        class="w-full bg-bgDark border grid-border rounded px-3 py-2 text-white focus:outline-none focus:border-accent">
                 </div>
                 <div>
                     <label class="block text-textMuted mb-1 uppercase">MESSAGE BRIEF</label>
-                    <textarea rows="4" required placeholder="Tell me about your AI project requirements..." class="w-full bg-bgDark border grid-border rounded px-3 py-2 text-white focus:outline-none focus:border-accent"></textarea>
+                    <textarea rows="4" required placeholder="Tell me about your AI project requirements..."
+                        class="w-full bg-bgDark border grid-border rounded px-3 py-2 text-white focus:outline-none focus:border-accent"></textarea>
                 </div>
-                <button type="submit" class="w-full py-3 bg-accent text-white font-bold rounded uppercase tracking-wider hover:opacity-90 transition-opacity">
+                <button type="submit"
+                    class="w-full py-3 bg-accent text-white font-bold rounded uppercase tracking-wider hover:opacity-90 transition-opacity">
                     TRANSMIT MESSAGE
                 </button>
             </form>
@@ -735,15 +894,19 @@
     </div>
 
     <!-- Search Overlay -->
-    <div id="searchModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-start justify-center pt-20 p-4">
+    <div id="searchModal"
+        class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-start justify-center pt-20 p-4">
         <div class="bg-bgCard border grid-border rounded-lg max-w-xl w-full p-4 shadow-2xl space-y-4 font-mono">
             <div class="flex items-center border-b grid-border pb-2">
                 <i class="fa-solid fa-magnifying-glass text-textMuted mr-3"></i>
-                <input type="text" id="searchInput" oninput="handleSearch(this.value)" placeholder="Search projects by keyword..." class="w-full bg-transparent text-white focus:outline-none text-sm">
+                <input type="text" id="searchInput" oninput="handleSearch(this.value)"
+                    placeholder="Search projects by keyword..."
+                    class="w-full bg-transparent text-white focus:outline-none text-sm">
                 <button onclick="toggleSearchModal()" class="text-textMuted hover:text-white ml-2">&times;</button>
             </div>
             <div id="searchResults" class="max-h-60 overflow-y-auto space-y-2 text-xs">
-                <div class="text-textMuted italic p-2">Type above to search across Python, Groq, Writing Assistant...</div>
+                <div class="text-textMuted italic p-2">Type above to search across Python, Groq, Writing Assistant...
+                </div>
             </div>
         </div>
     </div>
@@ -846,7 +1009,7 @@
                 const card = document.createElement('div');
                 card.className = 'border grid-border rounded-lg bg-bgCard hover:border-accent transition-all overflow-hidden flex flex-col justify-between group glow-effect';
 
-                const liveBadge = p.demoUrl 
+                const liveBadge = p.demoUrl
                     ? `<a href="${p.demoUrl}" target="_blank" rel="noopener noreferrer" class="text-[10px] bg-accent/20 text-accent px-2 py-0.5 rounded border border-accent/40 font-bold hover:bg-accent hover:text-white transition-all"><i class="fa-solid fa-arrow-up-right-from-square mr-1"></i>LIVE DEMO</a>`
                     : `<span class="text-textMuted text-[10px]">${p.tech.split('•')[0]}</span>`;
 
